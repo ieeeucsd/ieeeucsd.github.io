@@ -477,8 +477,7 @@ fieldset[disabled] .btn-theme {
   	[Footer]
 ------------------------------------------------------------------*/
 .footer {
-  background: url(../img/1920x1080/03.jpg) no-repeat;
-  background-size: cover;
+  background-color: BLACK;
   background-position: center center;
 }
 
@@ -487,12 +486,25 @@ fieldset[disabled] .btn-theme {
 }
 
 .footer .footer-list {
+  text-align: justify;
   margin-bottom: 0;
+}
+
+#footerList:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
+.footer .footer-padding {
+  padding-top: 4%;
+
 }
 
 .footer .footer-list-item {
   color: #cbd3e1;
   margin-bottom: 25px;
+  display: inline-block;
 }
 
 .footer .footer-list-link {
