@@ -1,0 +1,69 @@
+upcoming events section
+
+  <div class="content-lg container">
+         
+            <div class="row margin-b-40">
+                <div class="col-sm-6">
+                    <h2>Upcoming Events</h2>
+                    <p>Check out what is coming up with IEEE at UC San Diego.</p>
+                </div>
+            </div>
+            <!--// end row -->
+
+            <div class="row" id ="events">
+                <!-- Latest Products -->
+                <div class="col-sm-4 sm-margin-b-50">
+                    <div class="margin-b-20">
+                        <!--<div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">-->
+                            <!--<img class="img-responsive" src="Asentus-master/HTML/img/arduino.png" alt="Latest Products Image">-->
+                        <!--</div>-->
+                    </div>
+                    <h4><a href="https://www.facebook.com/events/552715338419303/">Grand PrIEEE 2018: Annual Robotics Competition at UC San Diego</a> <span class="text-uppercase margin-l-20"><br>Outreach</br></span></h4>
+                    <p> Price Center East Ballroom <br> May 20, 2018 </br> 8 am - 5 pm </p>
+                    <a class="link" href="https://www.facebook.com/events/552715338419303/">Learn More</a>
+                </div>
+
+                <div class="col-sm-4 sm-margin-b-50">
+                    <div class="margin-b-20">
+                        <!--<div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">-->
+                            <!--<img class="img-responsive" src="Asentus-master/HTML/img/arduino.png" alt="Latest Products Image">-->
+                        <!--</div>-->
+                    </div>
+                    <h4><a href="https://www.facebook.com/events/360939907752140/">2018 IEEE California Micromouse Competition (CAMM)</a> <span class="text-uppercase margin-l-20"><br>Technical</br></span></h4>
+                    <p>UC San Diego - Multipurpose Room <br> May 27, 2018 </br> 10 am - 4 pm </p>
+                    <a class="link" href="https://www.facebook.com/events/360939907752140/">Learn More</a>
+                </div>
+            </div>
+
+                <!-- Latest Products -->
+                <!-- <div class="col-sm-4 sm-margin-b-50">
+                    <div class="margin-b-20">
+                        <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                            <img class="img-responsive" src="img/970x647/03.jpg" alt="Latest Products Image">
+                        </div>
+                    </div>
+                    <h4><a href="https://www.facebook.com/events/1933959683592567">Blinking LED Soldering Workshop</a> <span class="text-uppercase margin-l-20">Technical</span></h4>
+                    <p>October 21, 2017 | 10 am - 2 pm | Henry Booker Room (EBU1 2512)</p>
+                    <a class="link" href="https://www.facebook.com/events/1933959683592567">Learn More</a>
+                </div> -->
+                <!-- End Latest Products -->
+            </div>
+            <!--// end row -->
+            <center style="padding-bottom: 100px">
+                <iframe src="https://calendar.google.com/calendar/embed?src=666sh64sku5n29qv2a2f4598jc%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            </center>
+
+
+ <div class="item">
+            <img class="img-responsive" src="Asentus-master/HTML/img/Header.jpg" alt="Slider Image">
+            <div class="container">
+                <div class="carousel-centered">
+                    <div class="margin-b-40">
+                        <h2 class="carousel-title">Hi-Tech Design</h2>
+                        <p>Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
+                            <br/> enim minim estudiat veniam siad venumus dolore</p>
+                    </div>
+                    <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Explore</a>
+                </div>
+            </div>
+        </div>
