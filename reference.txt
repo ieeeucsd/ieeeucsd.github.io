@@ -214,3 +214,77 @@ upcoming events section
             </div>
         </div>
         <!-- End Promo Section -->
+
+
+
+
+
+
+
+        <div class="row" id="projects">
+            <!-- Latest Products -->
+            <div class="col-sm-4 sm-margin-b-50">
+                <div class="margin-b-20">
+                    <!--<div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">-->
+                    <!--<img class="img-responsive" src="Asentus-master/HTML/img/arduino.png" alt="Latest Products Image">-->
+                    <!--</div>-->
+                </div>
+                <h4>Grand PrIEEE
+                    <span class="text-uppercase margin-l-20"></span>
+                </h4>
+                <p> Autonomous line following robots. </p>
+
+            </div>
+
+            <div class="col-sm-4 sm-margin-b-50">
+                <div class="margin-b-20">
+                    <!--<div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">-->
+                    <!--<img class="img-responsive" src="Asentus-master/HTML/img/arduino.png" alt="Latest Products Image">-->
+                    <!--</div>-->
+                </div>
+                <h4>Micromouse
+                    <span class="text-uppercase margin-l-20"></span>
+                </h4>
+                <p> Maze solving robots. </p>
+
+            </div>
+
+            <div class="col-sm-4 sm-margin-b-50">
+                <div class="margin-b-20">
+                    <!--<div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">-->
+                    <!--<img class="img-responsive" src="Asentus-master/HTML/img/arduino.png" alt="Latest Products Image">-->
+                    <!--</div>-->
+                </div>
+                <h4>Quadcopter
+                    <span class="text-uppercase margin-l-20"></span>
+                </h4>
+                <p> Autonomous quadcopter that herds roombas. </p>
+
+            </div>
+
+            <div class="col-sm-4 sm-margin-b-50">
+                <div class="margin-b-20">
+                    <!--<div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">-->
+                    <!--<img class="img-responsive" src="Asentus-master/HTML/img/arduino.png" alt="Latest Products Image">-->
+                    <!--</div>-->
+                </div>
+                <h4>Project Drive
+                    <span class="text-uppercase margin-l-20"></span>
+                </h4>
+                <p> Autonomous car that traverses through obstacles.</p>
+
+            </div>
+
+            <div class="col-sm-4 sm-margin-b-50">
+                <div class="margin-b-20">
+                    <!--<div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">-->
+                    <!--<img class="img-responsive" src="Asentus-master/HTML/img/arduino.png" alt="Latest Products Image">-->
+                    <!--</div>-->
+                </div>
+                <h4>Quarterly Proejcts
+                    <span class="text-uppercase margin-l-20"></span>
+                </h4>
+                <p> Quarterly beginner friendly projects to help stimulate student technical growth.</p>
+
+            </div>
+        </div>
