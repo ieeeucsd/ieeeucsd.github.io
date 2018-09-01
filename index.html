@@ -32,6 +32,8 @@
 
     <!-- THEME STYLES -->
     <link href="Asentus-master/HTML/css/layout.min.css" rel="stylesheet" type="text/css" />
+    <link href="resources/stylesheets/footer.css" rel="stylesheet" type="text/css" />
+    <link href="resources/stylesheets/splash.css" rel="stylesheet" type="text/css" />
 
     <!--ICONS-->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -87,7 +89,7 @@
                                 <a class="nav-item-child nav-item-hover" href="join.html">Join Staff</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-item-child nav-item-hover" href="contact.html">Contact Us</a>
+                                <a class="nav-item-child nav-item-hover" href="contact.html">Contact</a>
                             </li>
                             <!--<li class="nav-item"><a class="nav-item-child nav-item-hover active js-back-to-top" href="javascript:void(0);">Home</a></li>-->
                         </ul>
@@ -113,30 +115,36 @@
             <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
         <div class="item active">
-            <img class="img-responsive" src="Asentus-master/HTML/img/Header.jpg" alt="Slider Image">
-            <div class="container">
-                <div class="carousel-centered">
+            <img class="img-responsive splash-image" src="Asentus-master/HTML/img/Header.jpg" alt="Slider Image">
+            <div class="container splash">
+                <div class="carousel-centered splash-text">
                     <div class="margin-b-40">
                         <h1 class="carousel-title">IEEE at UC San Diego</h1>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 
-    <div class="bg-color-sky-light overflow-h">
-        <div class="content-lg container">
+<!--
+    <div class="statistics">
+      <ul>
+        <li>
+          <span class="stat-number">
+            1500
+          </span>
+          <span class="stat-def">
+            Students Reached
+          </span>
+        </li>
+      </ul>
+    </div>
+-->
+    <div class="overflow-h">
+        <div class="content-lg container about-something">
 
-            <h4 style="padding-bottom: 20px">
-                Here at IEEE Student Branch at UC San Diego, we are dedicated to developing students into successful engineers by providing
-                them with technical skills and personal development opportunities. We are a pre-professional organization
-                and the 2nd largest student branch in the country, with over 350 members. This past year we held over 50
-                events, accommodating over 1500 students. These events include our four annual projects, three quarterly
-                projects, hackathons, technical and professional development events, community social events and outreach
-                programs. Through these opportunities, we have paved a way for students to network, collaborate and learn
-                outside of the classroom. Being an IEEE student member has wonderful perks, including networking and career
-                opportunities.
+            <h4 class="about-statement">
+                IEEE at UCSD helps students build technical skills, professional skills, and social connections by applying engineering outside the classroom.
             </h4>
             <h4>
                 Subscribe to our newsletter to get updates on our upcoming events!
@@ -149,78 +157,9 @@
 
 
 
-    <div class="content-lg container">
 
-        <div class="row margin-b-40">
-            <div class="col-sm-6">
-                <h2>Upcoming Events</h2>
-                <p>Check out what is coming up with IEEE at UC San Diego.</p>
-                <center style="padding-top: 20px">
-                    <iframe src="https://calendar.google.com/calendar/embed?src=666sh64sku5n29qv2a2f4598jc%40group.calendar.google.com&ctz=America%2FLos_Angeles"
-                        style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-                </center>
-            </div>
-        </div>
-    </div>
+    <!-- https://calendar.google.com/calendar/embed?src=666sh64sku5n29qv2a2f4598jc%40group.calendar.google.com&ctz=America%2FLos_Angeles-->
 
-    <!-- Work -->
-    <div class="bg-color-sky-light overflow-h">
-        <div class="content-lg container">
-            <div class="row margin-b-40">
-                <div class="col-sm-6">
-                    <h2>Photo Gallery</h2>
-                    <p>Check out some of the photos from our events!</p>
-                    <a href="https://plus.google.com/+IEEEUCSDStudentBranch">Learn More</a>
-                </div>
-            </div>
-            <!--// end row -->
-
-            <!-- Masonry Grid -->
-            <div class="masonry-grid">
-                <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
-                <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-8">
-                    <!-- Work -->
-                    <div class="work wow fadeInUp" data-wow-duration=".3" data-wow-delay=".1s">
-                        <div class="">
-                            <img class="full-width img-responsive" src="Asentus-master/HTML/img/friends.jpg" alt="Portfolio Image">
-                        </div>
-                        <!-- <div class="work-content">
-                                <h3 class="color-white margin-b-5">Art Of Coding</h3>
-                                <p class="color-white margin-b-0">Lorem ipsum dolor sit amet consectetur adipiscing</p>
-                            </div> -->
-                    </div>
-                    <!-- End Work -->
-                </div>
-                <div class="masonry-grid-item col-xs-6 col-sm-6 col-md-4">
-                    <!-- Work -->
-                    <div class="work wow fadeInUp" data-wow-duration=".3" data-wow-delay=".2s">
-                        <!--<div class="work-overlay"> -->
-                        <img class="full-width img-responsive" src="Asentus-master/HTML/img/whiteboard.jpg" alt="Portfolio Image">
-                        <!-- </div> -->
-                        <!-- <div class="work-content">
-                                <h3 class="color-white margin-b-5">Clean Design</h3>
-                                <p class="color-white margin-b-0">Lorem ipsum dolor sit amet consectetur adipiscing</p>
-                            </div>
-                            <a class="content-wrapper-link" href="#"></a> -->
-                    </div>
-                    <!-- End Work -->
-                </div>
-                <div class="masonry-grid-item col-xs-6 col-sm-6 col-md-4">
-                    <!-- Work -->
-                    <div class="work wow fadeInUp" data-wow-duration=".3" data-wow-delay=".3s">
-                        <!-- <div class="work-overlay"> -->
-                        <img class="full-width img-responsive" src="Asentus-master/HTML/img/collaborate.jpg" alt="Portfolio Image">
-                        <!--<div class="work-content">
-                                <h3 class="color-white margin-b-5">Clean Design</h3>
-                                <p class="color-white margin-b-0">Lorem ipsum dolor sit amet consectetur adipiscing</p>
-                            </div>-->
-                    </div>
-                    <!-- End Work -->
-                </div>
-                <!-- End Masonry Grid -->
-            </div>
-        </div>
-    </div>
     </div>
     <!-- End Work -->
     <!--========== END PAGE LAYOUT ==========-->
@@ -233,26 +172,24 @@
                 <div class="row">
                     <div class="col-sm-12 sm-margin-b-30">
                         <!-- List -->
-                        <ul class="list-unstyled footer-list footer-padding" id="footerList">
-                            <li class="footer-list-item">
-                                <img class="footer-logo" src="Asentus-master/HTML/img/IEEE_Logo_Blue.png" alt="IEEE logo">
-                            </li>
+                        <ul class="list-unstyled footer-padding" id="footerList">
                             <li class="footer-list-item">
                                 <a class="footer-list-link btn btn-social-icon" href="https://www.facebook.com/ieeeucsd">
-                                    <span class=" fa fa-facebook-square fa-2x"></span>
+                                    <span class="fa fa-facebook-square fa-2x"></span>
                                 </a>
                             </li>
                             <li class="footer-list-item">
                                 <a class="footer-list-link btn btn-social-icon" href="https://www.instagram.com/ieee.ucsd/">
-                                    <span class="fa fa-instagram fa-2x" style="color: gainsboro"></span>
+                                    <span class="fa fa-instagram fa-2x"></span>
                                 </a>
                             </li>
                             <li class="footer-list-item">
-                                <a class="footer-list-link" href="https://www.youtube.com/channel/UCMV5TiaogL0x10ICC-GN7Jw">
-                                    <span class="fa fa-youtube fa-2x" style="color: gainsboro"></span>
+                                <a class="footer-list-link btn btn-social-icon" href="https://www.youtube.com/channel/UCMV5TiaogL0x10ICC-GN7Jw">
+                                    <span class="fa fa-youtube fa-2x"></span>
                                 </a>
                             </li>
                         </ul>
+                        <span class="footer-text"> Stay connected </span>
                         <!-- End List -->
                     </div>
                 </div>

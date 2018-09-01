@@ -1,0 +1,29 @@
+.fa {
+  color: rgb(255, 255, 255);
+}
+
+.fa:hover {
+  color: rgb(0, 98, 155);
+  transition-duration: .2s;
+}
+
+.footer {
+  text-align: center;
+}
+
+#footerList:after {
+  content: normal !important;
+}
+
+.footer-list-item {
+  margin-bottom: 0 !important;
+}
+
+.footer-text {
+  color: rgb(255, 255, 255);
+}
+
+.list-unstyled {
+  text-align: center;
+  margin-bottom: 0 !important;
+}

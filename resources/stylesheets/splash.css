@@ -1,0 +1,38 @@
+.splash {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.splash-text {
+  width: 100vw;
+  text-align: center !important;
+}
+
+/* TODO: Mobile optimize font sizes */
+.carousel-title {
+  font-size: 8em !important;
+}
+
+
+/* Splash Image */
+.carousel-inner {
+  position: relative;
+  background-color: blue;
+  border-bottom-left-radius: 80% 10%;
+  border-bottom-right-radius: 80% 10%;
+}
+
+.about-statement {
+  font-size: 2em;
+  text-align: center;
+  font-weight: 500;
+}
+
+.splash-image {
+  -webkit-filter: brightness(.75);
+  filter: brightness(.75);
+}
+
+.about-something {
+  text-align: center;
+}
