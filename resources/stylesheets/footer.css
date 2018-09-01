@@ -4,11 +4,15 @@
 
 .fa:hover {
   color: rgb(0, 98, 155);
-  transition-duration: .2s;
+  transition-duration: .3s;
 }
 
 .footer {
   text-align: center;
+}
+
+.footer-seperator {
+  padding-bottom: 4%;
 }
 
 #footerList:after {
@@ -20,6 +24,7 @@
 }
 
 .footer-text {
+  font-size: 1.4em;
   color: rgb(255, 255, 255);
 }
 
