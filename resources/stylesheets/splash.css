@@ -11,6 +11,7 @@
 /* TODO: Mobile optimize font sizes */
 .carousel-title {
   font-size: 8em !important;
+  text-shadow: 2px 2px 40px rgb(50, 50, 50);
 }
 
 
