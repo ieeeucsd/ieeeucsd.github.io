@@ -23,6 +23,28 @@
   border-bottom-right-radius: 80% 10%;
 }
 
+.carousel-inner .item {
+  height: 110vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  -webkit-background-position: center;
+  -moz-background-position: center;
+  -o-background-position: center;
+  background-position: center;
+
+  -webkit-background-attachment: fixed;
+  -moz-background-attachment: fixed;
+  -o-background-attachment: fixed;
+  background-attachment: fixed;
+}
+
+.slide1 {
+    background: url('../../Asentus-master/HTML/img/Header.jpg');
+}
+
 .about-statement {
   font-size: 2em;
   text-align: center;
