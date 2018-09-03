@@ -35,6 +35,7 @@
     <link href="resources/stylesheets/footer.css" rel="stylesheet" type="text/css" />
     <link href="resources/stylesheets/splash.css" rel="stylesheet" type="text/css" />
     <link href="resources/stylesheets/about.css" rel="stylesheet" type="text/css" />
+    <link href="resources/stylesheets/cards.css" rel="stylesheet" type="text/css" />
 
     <!--ICONS-->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -100,21 +101,21 @@
         <!-- Navbar -->
     </header>
     <!--========== END HEADER ==========-->
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-        <div class="item active slide1">
-            <div class="container splash">
-                <div class="carousel-centered splash-text">
-                    <h1 class="carousel-title">IEEE at UC San Diego</h1>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfWbdevJZXZmyd6WEDkrENTDcL4oXG8x8CAiZxDxnVnKyZR0w/viewform">
-                        <button type="button" class="btn btn-light join-button">
-                            Join Us!
-                        </button>
-                    </a>
-                </div>
-            </div>
-        </div>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+          <div class="splash-container">
+            <h1 class="splash-text">IEEE at UC San Diego</h1>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfWbdevJZXZmyd6WEDkrENTDcL4oXG8x8CAiZxDxnVnKyZR0w/viewform">
+                <button type="button" class="btn btn-light join-button">
+                  Sign Up!
+                </button>
+            </a>
+          </div>
+          <div class="item slide1"></div>
+          <div class="item slide2"></div>
+          </div>
+      </div>
     </div>
 
     <div class="statistics">
@@ -159,22 +160,19 @@
     </div>
 
     <div class="overflow-h">
-        <div class="content-lg container about">
+      <div class="content-lg container about">
 
-            <h4 class="about-statement">
-                IEEE at UCSD helps students build technical skills, professional skills, and social connections by applying engineering outside the classroom.
-            </h4>
-            <h4>
-                Subscribe to our newsletter to get updates on our upcoming events!
-            </h4>
+        <h4 class="about-statement">
+          IEEE at UC San Diego is a non-profit pre-professional student organization.
+          We are dedicated to provide engineering students with hands-on experiences,
+          technical and professional development and other resources to help them achieve
+          their true potential as they develop into professional engineers.
+        </h4>
 
-            <a href="http://tinyurl.com/IEEE-Newsletter" class="btn-theme btn-theme-sm text-uppercase">
-                Subscribe</a>
-        </div>
+      </div>
     </div>
 
-   <div class="card">
-   </div>
+   <!-- http://tinyurl.com/IEEE-Newsletter -->
 
 
     <!-- https://calendar.google.com/calendar/embed?src=666sh64sku5n29qv2a2f4598jc%40group.calendar.google.com&ctz=America%2FLos_Angeles-->
@@ -208,7 +206,7 @@
                                 </a>
                             </li>
                         </ul>
-                        <span class="footer-text"> Stay connected! </span>
+                        <span class="footer-text">Stay connected!</span>
                         <!-- End List -->
                     </div>
                 </div>

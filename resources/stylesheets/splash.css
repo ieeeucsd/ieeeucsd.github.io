@@ -4,15 +4,22 @@
 }
 
 .splash-text {
-  width: 100vw;
-  text-align: center !important;
+  font-size: 8em !important;
+  text-shadow: 2px 2px 40px rgb(50, 50, 50);
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
 }
 
 /* TODO: Mobile optimize font sizes */
-.carousel-title {
-  font-size: 8em !important;
-  text-shadow: 2px 2px 40px rgb(50, 50, 50);
+.splash-container {
+  position: absolute;
+  top: 40vh;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
 }
+
+
 
 
 /* Splash Image */
@@ -25,6 +32,7 @@
 
 .carousel-inner .item {
   height: 110vh;
+
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -45,15 +53,16 @@
     background: url('../../Asentus-master/HTML/img/Header.jpg');
 }
 
+.slide2 {
+  background: url('../../Asentus-master/HTML/img/Hiking.jpg');
+  -webkit-filter: brightness(.75);
+  filter: brightness(.75);
+}
+
 .about-statement {
   font-size: 2em;
   text-align: center;
   font-weight: 500;
-}
-
-.splash-image {
-  -webkit-filter: brightness(.75);
-  filter: brightness(.75);
 }
 
 .statistics {
