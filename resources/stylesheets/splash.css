@@ -1,6 +1,26 @@
+/* ====================
+ * Filename: splash.css
+ * Author: Antony Nguyen
+ * Date Last Updated: September 20, 2018
+ * Media: Screen
+ * ----------
+ * File for the splash screen section on the website's home page
+ * TODO: Mobile optimize font sizes
+ ====================== */
+
+/* Splash Screen  */
+
 .splash {
   padding: 0 !important;
   margin: 0 !important;
+}
+
+.splash-container {
+  position: absolute;
+  top: 40vh;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
 }
 
 .splash-text {
@@ -10,19 +30,33 @@
   text-transform: uppercase;
 }
 
-/* TODO: Mobile optimize font sizes */
-.splash-container {
-  position: absolute;
-  top: 40vh;
-  z-index: 1;
-  width: 100%;
-  text-align: center;
+/* Splash Join Staff Button */
+
+.join-button, .join-button:hover, .join-button:active, .join-button:focus {
+  outline: none !important;
+  font-size: 3em;
+  border-radius: 10px;
+  line-height: 1.6em;
+  box-shadow: 2px 2px 40px rgb(50, 50, 50);
+  min-width: 20vw;
 }
 
+.join-button:hover {
+  transform: scale(1.04);
+  transition-duration: .25s;
+}
 
+.join-button:active {
+  transform: translateY(2px);
+  transition-duration: .25s;
+}
 
+a .join-button {
+  color: black;
+}
 
-/* Splash Image */
+/* Splash Screen Carousel */
+
 .carousel-inner {
   position: relative;
   background-color: blue;
@@ -49,79 +83,14 @@
   background-attachment: fixed;
 }
 
+/* Splash Screen Individual Images */
+
 .slide1 {
-    background: url('../../Asentus-master/HTML/img/Header.jpg');
+    background: url('../../resources/images/splash/Splash1.jpg');
 }
 
 .slide2 {
-  background: url('../../Asentus-master/HTML/img/Hiking.jpg');
+  background: url('../../resources/images/splash/Splash2.jpg');
   -webkit-filter: brightness(.75);
   filter: brightness(.75);
-}
-
-.about-statement {
-  font-size: 2em;
-  text-align: center;
-  font-weight: 500;
-}
-
-.statistics {
-  width: 100%;
-  text-align: center;
-}
-
-.statistic {
-  margin: 50px 0;
-  color: rgb(0, 0, 0);
-  text-transform: uppercase;
-  text-align: center;
-  display: inline-block;
-}
-
-.value {
-  margin: 0 4vw;
-  font-size: 4em;
-  font-weight: 400;
-}
-
-.definition {
-  font-size: 1.6em;
-}
-
-.join-button, .join-button:hover, .join-button:active, .join-button:focus {
-  outline: none !important;
-  font-size: 3em;
-  border-radius: 10px;
-  line-height: 1.6em;
-  box-shadow: 2px 2px 40px rgb(50, 50, 50);
-  min-width: 20vw;
-}
-
-.join-button:hover {
-  transform: scale(1.04);
-  transition-duration: .25s;
-}
-
-.join-button:active {
-  transform: translateY(2px);
-  transition-duration: .25s;
-}
-
-a .join-button {
-  color: black;
-}
-
-.dots {
-  width: 100%;
-  text-align: center;
-}
-
-.dot {
-  width: 10px;
-  height: 10px;
-  margin: 0 20px;
-  border-radius: 50%;
-  display: inline-block;
-  background-color: rgb(0, 0, 0);
-  content: "";
 }

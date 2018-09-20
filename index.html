@@ -1,15 +1,4 @@
 <!DOCTYPE html>
-<!-- ==============================
-    Project:        Metronic "Asentus" Frontend Freebie - Responsive HTML Template Based On Twitter Bootstrap 3.3.4
-    Version:        1.0
-    Author:         KeenThemes
-    Primary use:    Corporate, Business Themes.
-    Email:          support@keenthemes.com
-    Follow:         http://www.twitter.com/keenthemes
-    Like:           http://www.facebook.com/keenthemes
-    Website:        http://www.keenthemes.com
-    Premium:        Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
-================================== -->
 <html lang="en" class="no-js">
 <!-- BEGIN HEAD -->
 
@@ -18,8 +7,6 @@
     <title>IEEE Student Branch at UC San Diego</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <meta content="" name="description" />
-    <meta content="" name="author" />
 
     <!-- GLOBAL MANDATORY STYLES -->
     <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
@@ -35,13 +22,12 @@
     <link href="resources/stylesheets/footer.css" rel="stylesheet" type="text/css" />
     <link href="resources/stylesheets/splash.css" rel="stylesheet" type="text/css" />
     <link href="resources/stylesheets/about.css" rel="stylesheet" type="text/css" />
-    <link href="resources/stylesheets/cards.css" rel="stylesheet" type="text/css" />
 
     <!--ICONS-->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Favicon -->
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="resources/images/icons/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <!-- END HEAD -->
@@ -50,57 +36,67 @@
 
 <body>
 
-    <!--========== HEADER ==========-->
-    <header class="header navbar-fixed-top">
-        <!-- Navbar -->
-        <nav class="navbar" role="navigation">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="menu-container">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="toggle-icon"></span>
-                    </button>
+  <!--========== HEADER ==========-->
+  <header class="header navbar-fixed-top">
+    <!-- Navbar -->
+    <nav class="navbar" role="navigation">
+        <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="menu-container">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="toggle-icon"></span>
+            </button>
 
-                    <!-- Logo -->
-                    <div class="logo">
-                        <a class="logo-wrap js-back-to-top" href="index.html">
-                            <img class="logo-img logo-img-main" src="Asentus-master/HTML/img/IEEE_Logo_White.png" alt="Asentus Logo">
-                            <img class="logo-img logo-img-active" src="Asentus-master/HTML/img/IEEE_Logo_White.png" alt="Asentus Logo">
-                        </a>
-                    </div>
-                    <!-- End Logo -->
-                </div>
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse nav-collapse">
-                    <div class="menu-container">
-                        <ul class="navbar-nav navbar-nav-right">
-                            <li class="nav-item">
-                                <a class="nav-item-child nav-item-hover active" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-item-child nav-item-hover" href="about.html">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-item-child nav-item-hover" href="projects.html">Projects</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-item-child nav-item-hover" href="sponsorship.html">Sponsorship</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-item-child nav-item-hover" href="contact.html">Contact</a>
-                            </li>
-                            <!--<li class="nav-item"><a class="nav-item-child nav-item-hover active js-back-to-top" href="javascript:void(0);">Home</a></li>-->
-                        </ul>
-                    </div>
-                </div>
-                <!-- End Navbar Collapse -->
+            <!-- Logo -->
+            <div class="logo">
+                <a class="logo-wrap js-back-to-top" href="index.html">
+                    <img class="logo-img logo-img-main" src="Asentus-master/HTML/img/IEEE_Logo_White.png" alt="Asentus Logo">
+                    <img class="logo-img logo-img-active" src="Asentus-master/HTML/img/IEEE_Logo_White.png" alt="Asentus Logo">
+                </a>
             </div>
-        </nav>
-        <!-- Navbar -->
-    </header>
-    <!--========== END HEADER ==========-->
+            <!-- End Logo -->
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse nav-collapse">
+            <div class="menu-container">
+              <ul class="navbar-nav navbar-nav-right">
+                <li class="nav-item">
+                  <a class="nav-item-child nav-item-hover active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item-child nav-item-hover" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <div class="dropdown">
+                    <a class="dropdown-toggle nav-item-child nav-item-hover" data-toggle="dropdown" href="projects.html">Projects</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Quarterly</a>
+                      <a class="dropdown-item" href="#">Micromouse</a>
+                      <a class="dropdown-item" href="#">Grand PRIEEE</a>
+                      <a class="dropdown-item" href="#">Project Drive</a>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item-child nav-item-hover" href="sponsorship.html">Sponsorship</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item-child nav-item-hover" href="contact.html">Contact</a>
+                </li>
+                  <!--<li class="nav-item"><a class="nav-item-child nav-item-hover active js-back-to-top" href="javascript:void(0);">Home</a></li>-->
+              </ul>
+            </div>
+          </div>
+        <!-- End Navbar Collapse -->
+        </div>
+    </nav>
+  </header>
+  <!--========== END HEADER ==========-->
+
+
+  <!--========== SPLASH SCREEN ==========-->
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
@@ -117,7 +113,10 @@
           </div>
       </div>
     </div>
+    <!--========== END SPLASH SCREEN ==========-->
 
+
+    <!--========== STATISTICS ==========-->
     <div class="statistics">
       <div class="statistic wow bounceIn">
         <div class="value">
@@ -152,12 +151,16 @@
         </div>
       </div>
     </div>
+    <!--========== END STATISTICS ==========-->
 
+
+    <!--========== THOSE CUTE THREE DOTS ACTING AS A DIVIDER ==========-->
     <div class="dots">
       <div class="dot"></div>
       <div class="dot"></div>
       <div class="dot"></div>
     </div>
+    <!--========== END THOSE CUTE THREE DOTS ACTING AS A DIVIDER ==========-->
 
     <div class="overflow-h">
       <div class="content-lg container about">
@@ -174,9 +177,6 @@
 
    <!-- http://tinyurl.com/IEEE-Newsletter -->
 
-
-    <!-- https://calendar.google.com/calendar/embed?src=666sh64sku5n29qv2a2f4598jc%40group.calendar.google.com&ctz=America%2FLos_Angeles-->
-
     </div>
     <!-- End Work -->
     <!--========== END PAGE LAYOUT ==========-->
@@ -184,60 +184,60 @@
     <!--========== FOOTER ==========-->
     <footer class="footer">
         <!-- Links -->
-        <div class="footer-seperator">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 sm-margin-b-30">
-                        <!-- List -->
-                        <ul class="list-unstyled footer-padding" id="footerList">
-                            <li class="footer-list-item">
-                                <a class="footer-list-link btn btn-social-icon" href="https://www.facebook.com/ieeeucsd">
-                                    <span class="fa fa-facebook-square fa-3x"></span>
-                                </a>
-                            </li>
-                            <li class="footer-list-item">
-                                <a class="footer-list-link btn btn-social-icon" href="https://www.instagram.com/ieee.ucsd/">
-                                    <span class="fa fa-instagram fa-3x"></span>
-                                </a>
-                            </li>
-                            <li class="footer-list-item">
-                                <a class="footer-list-link btn btn-social-icon" href="https://www.youtube.com/channel/UCMV5TiaogL0x10ICC-GN7Jw">
-                                    <span class="fa fa-youtube fa-3x"></span>
-                                </a>
-                            </li>
-                        </ul>
-                        <span class="footer-text">Stay connected!</span>
-                        <!-- End List -->
-                    </div>
-                </div>
-                <!--// end row -->
+      <div class="footer-seperator">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 sm-margin-b-30">
+              <!-- List -->
+                <ul class="list-unstyled footer-padding" id="footerList">
+                  <li class="footer-list-item">
+                    <a class="footer-list-link btn btn-social-icon" href="https://www.facebook.com/ieeeucsd">
+                      <span class="fa fa-facebook-square fa-3x"></span>
+                    </a>
+                  </li>
+                  <li class="footer-list-item">
+                    <a class="footer-list-link btn btn-social-icon" href="https://www.instagram.com/ieee.ucsd/">
+                      <span class="fa fa-instagram fa-3x"></span>
+                    </a>
+                  </li>
+                  <li class="footer-list-item">
+                    <a class="footer-list-link btn btn-social-icon" href="https://www.youtube.com/channel/UCMV5TiaogL0x10ICC-GN7Jw">
+                      <span class="fa fa-youtube fa-3x"></span>
+                    </a>
+                    </li>
+                </ul>
+              <span class="footer-text">Stay connected!</span>
+              <!-- End List -->
             </div>
+          </div>
+        <!--// end row -->
         </div>
+      </div>
         <!-- End Links -->
 
     </footer>
-    <!--========== END FOOTER ==========-->
+  <!--========== END FOOTER ==========-->
 
-    <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
-    <!-- CORE PLUGINS -->
-    <script src="Asentus-master/HTML/vendor/jquery.min.js" type="text/javascript"></script>
-    <script src="Asentus-master/HTML/vendor/jquery-migrate.min.js" type="text/javascript"></script>
-    <script src="Asentus-master/HTML/vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+  <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+  <!-- CORE PLUGINS -->
+  <script src="Asentus-master/HTML/vendor/jquery.min.js" type="text/javascript"></script>
+  <script src="Asentus-master/HTML/vendor/jquery-migrate.min.js" type="text/javascript"></script>
+  <script src="Asentus-master/HTML/vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 
-    <!-- PAGE LEVEL PLUGINS -->
-    <script src="Asentus-master/HTML/vendor/jquery.easing.js" type="text/javascript"></script>
-    <script src="Asentus-master/HTML/vendor/jquery.back-to-top.js" type="text/javascript"></script>
-    <script src="Asentus-master/HTML/vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
-    <script src="Asentus-master/HTML/vendor/jquery.wow.min.js" type="text/javascript"></script>
-    <script src="Asentus-master/HTML/vendor/swiper/js/swiper.jquery.min.js" type="text/javascript"></script>
-    <script src="Asentus-master/HTML/vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
-    <script src="Asentus-master/HTML/vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+  <!-- PAGE LEVEL PLUGINS -->
+  <script src="Asentus-master/HTML/vendor/jquery.easing.js" type="text/javascript"></script>
+  <script src="Asentus-master/HTML/vendor/jquery.back-to-top.js" type="text/javascript"></script>
+  <script src="Asentus-master/HTML/vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
+  <script src="Asentus-master/HTML/vendor/jquery.wow.min.js" type="text/javascript"></script>
+  <script src="Asentus-master/HTML/vendor/swiper/js/swiper.jquery.min.js" type="text/javascript"></script>
+  <script src="Asentus-master/HTML/vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
+  <script src="Asentus-master/HTML/vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
 
-    <!-- PAGE LEVEL SCRIPTS -->
-    <script src="Asentus-master/HTML/js/layout.min.js" type="text/javascript"></script>
-    <script src="Asentus-master/HTML/js/components/wow.min.js" type="text/javascript"></script>
-    <script src="Asentus-master/HTML/js/components/swiper.min.js" type="text/javascript"></script>
-    <script src="Asentus-master/HTML/js/components/masonry.min.js" type="text/javascript"></script>
+  <!-- PAGE LEVEL SCRIPTS -->
+  <script src="Asentus-master/HTML/js/layout.min.js" type="text/javascript"></script>
+  <script src="Asentus-master/HTML/js/components/wow.min.js" type="text/javascript"></script>
+  <script src="Asentus-master/HTML/js/components/swiper.min.js" type="text/javascript"></script>
+  <script src="Asentus-master/HTML/js/components/masonry.min.js" type="text/javascript"></script>
 
 </body>
 <!-- END BODY -->

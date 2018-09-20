@@ -1,4 +1,63 @@
+/* ====================
+ * Filename: about.css
+ * Author: Antony Nguyen
+ * Date Last Updated: September 20, 2018
+ * Media: Screen
+ * ----------
+ * File for the about section on the website's home page
+ ====================== */
+
+/* Statistics */
+
+.definition {
+  font-size: 1.6em;
+}
+
+.value {
+  margin: 0 4vw;
+  font-size: 4em;
+  font-weight: 400;
+}
+
+.statistics {
+  width: 100%;
+  text-align: center;
+}
+
+.statistic {
+  margin: 50px 0;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  text-align: center;
+  display: inline-block;
+}
+
+/* Dots Divider */
+
+.dot {
+  width: 10px;
+  height: 10px;
+  margin: 0 20px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: rgb(0, 0, 0);
+  content: "";
+}
+
+.dots {
+  width: 100%;
+  text-align: center;
+}
+
+/* About Statement */
+
 .about {
   text-align: center;
   padding-top: 30px;
+}
+
+.about-statement {
+  font-size: 2em;
+  text-align: center;
+  font-weight: 500;
 }
