@@ -1,0 +1,33 @@
+/* ====================
+ * Filename: about.css
+ * Author: Antony Nguyen
+ * Date Last Updated: September 20, 2018
+ * Media: Screen
+ * ----------
+ * File for the navbar on all pages
+ ====================== */
+
+/* Dropdown Menu */
+
+.dropdown-menu-custom {
+  background: rgba(0, 0, 0, 0);
+}
+
+.dropdown-menu-white {
+  background: rgba(255, 255, 255);
+}
+
+.dropdown-item-custom {
+  color: rgb(255, 255, 255);
+  display: block;
+}
+
+.dropdown-item-black {
+  color: rgb(81,87,105);
+  display: block;
+}
+
+.dropdown-item:hover {
+  color: black;
+  background: rgba(255, 255, 255, 0.2);
+}
