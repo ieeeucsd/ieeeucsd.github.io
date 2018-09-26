@@ -15,11 +15,9 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Contact Us</title>
+    <title>IEEE Student Branch at UC San Diego</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <meta content="" name="description" />
-    <meta content="" name="author" />
 
     <!-- GLOBAL MANDATORY STYLES -->
     <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
@@ -32,13 +30,17 @@
 
     <!-- THEME STYLES -->
     <link href="Asentus-master/HTML/css/layout.min.css" rel="stylesheet" type="text/css" />
+    <link href="resources/stylesheets/footer.css" rel="stylesheet" type="text/css" />
+    <link href="resources/stylesheets/splash.css" rel="stylesheet" type="text/css" />
+    <link href="resources/stylesheets/about.css" rel="stylesheet" type="text/css" />
+    <link href="resources/stylesheets/navbar.css" rel="stylesheet" type="text/css" />
 
     <!--ICONS-->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-
     <!-- Favicon -->
-    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="icon" href="resources/images/icons/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <!-- END HEAD -->
 
@@ -78,7 +80,17 @@
                                 <a class="nav-item-child nav-item-hover" href="about.html">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-item-child nav-item-hover" href="projects.html">Projects</a>
+                                <div class="dropdown">
+                                    <a class="dropdown-toggle nav-item-child nav-item-hover" data-toggle="dropdown"
+                                        href="projects.html">Projects</a>
+                                    <div class="dropdown-menu dropdown-menu-custom" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item dropdown-item-custom" href="quarterly.html">Quarterly</a>
+                                        <a class="dropdown-item dropdown-item-custom" href="micromouse.html">Micromouse</a>
+                                        <a class="dropdown-item dropdown-item-custom" href="grandprieee.html">GrandPRIEEE</a>
+                                        <a class="dropdown-item dropdown-item-custom" href="projectdrive.html">Project Drive</a>
+                                        <a class="dropdown-item dropdown-item-custom" href="quadcopter.html">Quadcopter</a>
+                                    </div>
+                                </div>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-item-child nav-item-hover" href="sponsorship.html">Sponsorship</a>
@@ -102,7 +114,7 @@
     <!--========== PARALLAX ==========-->
     <div class="parallax-window" data-parallax="scroll" data-image-src="Asentus-master/HTML/img/Header.jpg">
         <div class="parallax-content container">
-            <h1 class="carousel-title">Projects</h1>
+            <h1 class="carousel-title">Contact Us</h1>
         </div>
     </div>
     <!--========== PARALLAX ==========-->
@@ -112,8 +124,9 @@
         <div class="row margin-b-40">
             <h2>Contact Us</h2>
             <h4>
-                General: ieee@eng.ucsd.edu <br/> Projects: ieee.ucsd.project@gmail.com <br/> Outreach: ieee.ucsd.outreach@gmail.com
-                <br/> Technical: ieee.ucsd.tech@gmail.com <br/>
+                General: ieee@eng.ucsd.edu <br /> Projects: ieee.ucsd.project@gmail.com <br /> Outreach:
+                ieee.ucsd.outreach@gmail.com
+                <br /> Technical: ieee.ucsd.tech@gmail.com <br />
             </h4>
             <a href="https://goo.gl/forms/6O8xXcWraGOlDeTn1" class="btn-theme btn-theme-sm text-uppercase">
                 Send Us a Message

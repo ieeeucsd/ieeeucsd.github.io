@@ -13,18 +13,17 @@
 <html lang="en" class="no-js">
 <!-- BEGIN HEAD -->
 
+
 <head>
     <meta charset="utf-8" />
-    <title>About Us</title>
+    <title>IEEE Student Branch at UC San Diego</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <meta content="" name="description" />
-    <meta content="" name="author" />
 
     <!-- GLOBAL MANDATORY STYLES -->
     <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
     <link href="Asentus-master/HTML/vendor/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
-    <link href="Asentus-master/HTML/vendor/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="Asentus-master/HTML/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 
     <!-- PAGE LEVEL PLUGIN STYLES -->
     <link href="Asentus-master/HTML/css/animate.css" rel="stylesheet">
@@ -32,11 +31,17 @@
 
     <!-- THEME STYLES -->
     <link href="Asentus-master/HTML/css/layout.min.css" rel="stylesheet" type="text/css" />
+    <link href="resources/stylesheets/footer.css" rel="stylesheet" type="text/css" />
+    <link href="resources/stylesheets/splash.css" rel="stylesheet" type="text/css" />
+    <link href="resources/stylesheets/about.css" rel="stylesheet" type="text/css" />
+    <link href="resources/stylesheets/navbar.css" rel="stylesheet" type="text/css" />
+
     <!--ICONS-->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="icon" href="resources/images/icons/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <!-- END HEAD -->
 
@@ -75,7 +80,17 @@
                                 <a class="nav-item-child nav-item-hover active" href="about.html">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-item-child nav-item-hover" href="projects.html">Projects</a>
+                                <div class="dropdown">
+                                    <a class="dropdown-toggle nav-item-child nav-item-hover" data-toggle="dropdown"
+                                        href="projects.html">Projects</a>
+                                    <div class="dropdown-menu dropdown-menu-custom" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item dropdown-item-custom" href="quarterly.html">Quarterly</a>
+                                        <a class="dropdown-item dropdown-item-custom" href="micromouse.html">Micromouse</a>
+                                        <a class="dropdown-item dropdown-item-custom" href="grandprieee.html">GrandPRIEEE</a>
+                                        <a class="dropdown-item dropdown-item-custom" href="projectdrive.html">Project Drive</a>
+                                        <a class="dropdown-item dropdown-item-custom" href="quadcopter.html">Quadcopter</a>
+                                    </div>
+                                </div>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-item-child nav-item-hover" href="sponsorship.html">Sponsorship</a>
@@ -110,24 +125,35 @@
             <div class="col-sm-9">
                 <h2>Mission Statement</h2>
                 <p>
-                    IEEE at UC San Diego is a pre-professional organization which provides engineering students with the resources 
-                    and extracurricular experiences to help them achieve their true potential as they develop into professional engineers. 
-                    We host several annual team projects as well as over 60 events and competitions for our student members, including huge 
+                    IEEE at UC San Diego is a pre-professional organization which provides engineering students with
+                    the resources
+                    and extracurricular experiences to help them achieve their true potential as they develop into
+                    professional engineers.
+                    We host several annual team projects as well as over 60 events and competitions for our student
+                    members, including huge
                     annual competitions: California Micromouse Competition (CAMM) and Grand PrIEEE.
-                    <br/>
-                    As an organization, we strive to provide opportunities to students both at UC San Diego and in the larger STEM community 
-                    to gain hands-on experience with autonomous robotics and its various disciplines. Throughout the year, we host dozens of 
-                    events and workshops to teach skills not frequently taught in the classroom, as well as outreach events for students looking 
-                    to give back to the STEM community. We also provide professional development and other resources to help students achieve 
-                    their true potential as they develop into professional engineers. 
+                    <br />
+                    As an organization, we strive to provide opportunities to students both at UC San Diego and in the
+                    larger STEM community
+                    to gain hands-on experience with autonomous robotics and its various disciplines. Throughout the
+                    year, we host dozens of
+                    events and workshops to teach skills not frequently taught in the classroom, as well as outreach
+                    events for students looking
+                    to give back to the STEM community. We also provide professional development and other resources to
+                    help students achieve
+                    their true potential as they develop into professional engineers.
                 </p>
-                <br/>
+                <br />
                 <h2>IEEE</h2>
                 <p>
-                    The Institute of Electrical and Electronics Engineers is the world's largest association of technical professionals with 
-                    more than 400,000 members in chapters around the world. Its objectives are the educational and technical advancement of 
-                    electrical and electronic engineering, telecommunications, computer engineering and allied disciplines. Its mission is to 
-                    foster technological innovation and excellence for the benefit of humanity. Being an IEEE student member has wonderful perks, 
+                    The Institute of Electrical and Electronics Engineers is the world's largest association of
+                    technical professionals with
+                    more than 400,000 members in chapters around the world. Its objectives are the educational and
+                    technical advancement of
+                    electrical and electronic engineering, telecommunications, computer engineering and allied
+                    disciplines. Its mission is to
+                    foster technological innovation and excellence for the benefit of humanity. Being an IEEE student
+                    member has wonderful perks,
                     including networking and career opportunities.
 
                 </p>
@@ -140,39 +166,39 @@
     <div class="bg-color-sky-light overflow-h">
         <div class="row">
             <div class="col-md-12">
-         
+
                 <div class="col-md-4">
                     <div class="content-lg container" style="padding-left: 20%">
                         <h2>Events</h2>
                         <p>
-                            We offer four annual projects, three quarterly projects, a hackathon, 
-                            <br/> technical and professional development events, community social 
-                            <br/> events and outreach programs.
+                            We offer four annual projects, three quarterly projects, a hackathon,
+                            <br /> technical and professional development events, community social
+                            <br /> events and outreach programs.
                         </p>
-                        <br/>
+                        <br />
                         <h3>Technical</h3>
                         <p>
                             - Gain the essential hands-on skills that are important in industry
-                            <br/> - Be more prepared for other projects, whether it be for class
-                            <br/> or the other projects we offer!
+                            <br /> - Be more prepared for other projects, whether it be for class
+                            <br /> or the other projects we offer!
                         </p>
                         <h3>Professional</h3>
                         <p>
-                            - Help build skills that are helpful when applying for internships 
-                            <br/> or jobs in the future
-                            <br/> - Meet other professionals in the field and expand your professional 
-                            <br/> network
+                            - Help build skills that are helpful when applying for internships
+                            <br /> or jobs in the future
+                            <br /> - Meet other professionals in the field and expand your professional
+                            <br /> network
                         </p>
                         <h3>Outreach</h3>
                         <p>
-                            - Give back to the community and inspire the next generation to 
-                            <br/> pursue a STEM career!
-                            <br/>
+                            - Give back to the community and inspire the next generation to
+                            <br /> pursue a STEM career!
+                            <br />
                         </p>
                         <h3>Social</h3>
                         <p>
                             - Meet other students that share the same passion for engineering!
-                            <br/> - Expand and strengthen the engineering community here at UCSD.
+                            <br /> - Expand and strengthen the engineering community here at UCSD.
                         </p>
                     </div>
                 </div>
@@ -183,19 +209,22 @@
                             <div class="col-md-5">
                                 <div class="masonry-grid-item.row-1">
                                     <div class="work wow fadeInUp" data-wow-duration=".3" data-wow-delay=".2s">
-                                        <img class="full-width img-responsive" src="Asentus-master/HTML/img/1.jpg" alt="Portfolio Image" style="padding-bottom: 15px">
+                                        <img class="full-width img-responsive" src="Asentus-master/HTML/img/1.jpg" alt="Portfolio Image"
+                                            style="padding-bottom: 15px">
                                     </div>
                                 </div>
                                 <div class="masonry-grid-item.row-1">
                                     <div class="work wow fadeInUp" data-wow-duration=".3" data-wow-delay=".3s">
-                                        <img class="full-width img-responsive" src="Asentus-master/HTML/img/2.jpg" alt="Portfolio Image" style="padding-bottom: 15px">
+                                        <img class="full-width img-responsive" src="Asentus-master/HTML/img/2.jpg" alt="Portfolio Image"
+                                            style="padding-bottom: 15px">
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-5">
                                 <div class="masonry-grid-item.row-1">
                                     <div class="work wow fadeInUp" data-wow-duration=".3" data-wow-delay=".2s">
-                                        <img class="full-width img-responsive" src="Asentus-master/HTML/img/Edited-8.jpg" alt="Portfolio Image" style="padding-bottom: 15px">
+                                        <img class="full-width img-responsive" src="Asentus-master/HTML/img/Edited-8.jpg"
+                                            alt="Portfolio Image" style="padding-bottom: 15px">
                                     </div>
                                 </div>
                                 <div class="masonry-grid-item.row-1">
@@ -207,7 +236,7 @@
                         </div>
                     </div>
                 </div>
-        
+
             </div>
         </div>
     </div>
