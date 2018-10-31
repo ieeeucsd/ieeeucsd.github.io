@@ -1,7 +1,7 @@
 /* ====================
  * Filename: about.css
- * Author: Antony Nguyen
- * Date Last Updated: September 20, 2018
+ * Author: Antony Nguyen, Linda Yang
+ * Date Last Updated: October 31, 2018
  * Media: Screen
  * ----------
  * File for the navbar on all pages
@@ -10,7 +10,7 @@
 /* Dropdown Menu */
 
 .dropdown-menu-custom {
-  background: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .dropdown-menu-white {
@@ -29,5 +29,9 @@
 
 .dropdown-item:hover {
   color: black;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.navbar-custom {
+  background: rgba(84, 84, 84, 0.4);
 }
